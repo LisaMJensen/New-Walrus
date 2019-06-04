@@ -12,15 +12,19 @@
 }
 
 .green-background {
-  background-color: green;
+  background-color: lightgreen;
 }
 
 .yellow-background {
-  background-color: yellow;
+  background-color: goldenrod;
 }
 
 .red-background {
-  background-color: red;
+  background-color: salmon;
+}
+
+.blue-background {
+  background-color: lightblue;
 }
  .orange {
    border: solid black;

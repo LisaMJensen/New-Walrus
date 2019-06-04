@@ -5,13 +5,11 @@ $(function() {
   });
 
     $("#start").click(function() {
-    //  $(".paraborder").fadeToggle();
       $("#start").toggleClass("orange");
-      $("orange").fadeToggle();
     });
 
     $("#orange").click(function() {
-
+      $("#start").fadeToggle();
     });
 
     $("button#green").click(function() {
@@ -29,5 +27,9 @@ $(function() {
       $("body").addClass("red-background");
     });
 
+    $("button#blue").click(function() {
+      $("body").removeClass();
+      $("body").addClass("blue-background");
+    });
 
 });
